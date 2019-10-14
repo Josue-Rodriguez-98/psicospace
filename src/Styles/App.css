@@ -1,0 +1,145 @@
+.BodyContent {
+  margin-left: 20vh;
+  margin-right: 20vh;
+}
+
+.HomeText {
+  color: whitesmoke;
+  color: black;
+  padding-left: 10vh;
+  padding-top: 10vh;
+  padding-right: 10vh;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.Nav {
+  height: 12.5vh;
+}
+
+.homeSection {
+  /* background-color: green; */
+  text-align: left;
+}
+.boxShadowSection {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.backgroundImage {
+  background-image: url("../Images/home.jpg");
+  background-size: cover;
+  height: calc(100vh - 12.5vh);
+}
+
+.loginView{
+  height: 60vh;
+  width: 50vh;
+  background-color: #b3d9ff;
+  padding-top: 75px;
+  padding: 2%;
+  /*margin-left: 37.5%;
+  margin-top: 5%;*/
+  margin: auto;
+  border: 10px black;
+  box-shadow: 5px 5px 10px gray;
+  
+  
+}
+
+.loginContainer{
+  /*background-image: url("../Images/loginBackground.jpg");
+  background-size: cover;*/
+  background-color: #e6f2ff;
+  height: calc(100vh - 12.5vh);
+  width: 100%;
+  padding-top: 10vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.homeRegisterButton{
+  background-color: rgb(0,204,255); 
+  margin-bottom: 5%; 
+  margin-left: 25%;
+  position: absolute; 
+  bottom: 10;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.homeDescriptionText{
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  font-size: 25px;
+}
+
+.oneWordColor{
+  color: rgb(0,204,255);
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border-radius: 12px;
+  
+}
+
+.button1:hover {
+  background-color: rgb(0,204,255);
+  color: white !important;
+  border-radius: 12px;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border-radius: 12px;
+  
+}
+
+.button2:hover {
+  background-color: red;
+  color: white !important;
+  border-radius: 12px;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border-radius: 12px;
+  
+}
+
+.button3:hover {
+  background-color: greenyellow;
+  color: white !important;
+  border-radius: 12px;
+}
+
+#botonFirst {
+  display: flex;
+  justify-content: flex-end;
+  padding:15px;
+  width: 100%;
+}
+
+#botonFirst > .btn{
+  display: flex;
+  align-items: center;
+}

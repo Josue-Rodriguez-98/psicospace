@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "psico-space",
+    "psico-space": "psico-space"
+  }
+}

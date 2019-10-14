@@ -1,0 +1,9 @@
+.Nav {
+  transition: .5s;
+  opacity: 1;
+  padding-top: 10px;
+}
+
+.NavHidden {
+  opacity: 0;
+}
